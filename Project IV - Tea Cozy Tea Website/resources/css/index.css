@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+    background-color: black;
+}
+
+.container-1 {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+}
+
+#border-id {
+    display: flex;
+    align-items: center;
+}
+
+#nav-id {
+    display: flex;
+    width: 1165px;
+    justify-content: end;
+}
+
+#logo-size {
+    height: 50px;
+    padding-left: 10px;
+}
+
+ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+ul li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 69px;
+}
+
+.sub-container-2 {
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+}
+
+#image-background-tea {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission-div {
+    background-color: black;
+    color: seashell;
+    flex-basis: 1200px;
+    text-align: center;
+}
+
+.sub-container-3 {
+    margin-top: 40px;
+    width: 1000px;
+    display: flex;
+}
+
+#mission-div-2 {
+    color: seashell;
+    background-color: black;
+    flex-basis: 1000px;
+    text-align: center;
+}
+
+h1 {
+    color: seashell;
+}
+
+h4 {
+    color: seashell;
+    text-align: center;
+}
+
+.sub-container-4 {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.size {
+    height: 200px;
+    width: 300px;
+}
+
+.images-padding {
+    padding-right: 30px;
+}
+
+.sub-container-5 {
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#image-background-2 {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+#mission-div-9 {
+    color: seashell;
+    text-align: center;
+    flex-basis: 1200px;
+    height: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.mission-divs {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: seashell;
+    margin-top: 15px;
+}
+
+#margin-divs, #margin-divs-2 {
+    margin-right: 40px;
+}
+
+footer {
+    color: seashell;
+}
+
+#footer-content {
+    height: 200px;
+    text-align: center;
+}
+
+#p-margin {
+    margin-left: 20px;
+}
